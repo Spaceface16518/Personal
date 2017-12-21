@@ -1,5 +1,5 @@
 var dogList = [];
-function createDog(name) {
+function addDog(name) {
   const Dog = new Dog(name);
   console.log(`Dog ${Dog.name} created and added to dog list`);
 }
@@ -11,7 +11,3 @@ if (index >= 0) {
   console.log('Invalid index: the list number of the dog you were trying to find was not greater than or equal to zero')
 }
 }
-function signIn(dog) {
-  // TODO: add sign in function
-}
-// TODO: add sign out function
