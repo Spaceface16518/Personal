@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $("#toggleText").click(function() {
     function toggleText() {
-      let text = $("box").text();
+      let text = $("#box").text();
       if (text = "I\'m shown") {
         $("#box").text("I\'m hidden")
       } else {
