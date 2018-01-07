@@ -2,10 +2,10 @@ $(document).ready(function () {
   $("#toggleText").click(function () {
     function toggleText() {
       let text = $("#box").text();
-      if (text = "I\'m shown") {
-        $("#box").text("I\'m hidden")
+      if (text = "Shown") {
+        $("#box").text("Hidden");
       } else {
-        $("#box").text("I\'m shown")
+        $("#box").text("Shown");
       }
     };
     toggleText();
@@ -25,14 +25,13 @@ $(document).ready(function () {
   $("#toggleBoth").click(function () {
     function toggleText() {
       let text = $("#box").text();
-      if (text = "I\'m shown") {
-        $("#box").text("I\'m hidden")
+      if (text = "Shown") {
+        $("#box").text("Hidden")
       } else {
-        $("#box").text("I\'m shown")
+        $("#box").text("Shown")
       }
     };
     toggleText();
-
     function toggleDisplay() {
       $("#box").toggle();
       let text = $("#toggleDisplay").html();
@@ -42,6 +41,6 @@ $(document).ready(function () {
         $("#toggleDisplay").html("<button type=\"button\" id=\"toggleDisplay\">Hide</button>")
       }
     }
-    toggleDisplay()
+    toggleDisplay();
   })
 });
